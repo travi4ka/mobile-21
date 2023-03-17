@@ -8,7 +8,6 @@ import org.aeonbits.owner.Config;
 public interface BrowserstackConfig extends Config {
 
     @Key("login")
-    @DefaultValue("")
     String getLogin();
 
     @Key("password")
