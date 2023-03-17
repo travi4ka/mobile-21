@@ -15,7 +15,6 @@ import static io.qameta.allure.Allure.step;
 
 public class MobileTests extends TestBase {
     @Test
-    @Disabled
     @Tag("android")
     @DisplayName("Search test")
     void searchInputTest() {
@@ -31,7 +30,6 @@ public class MobileTests extends TestBase {
 
     @Test
     @Tag("android")
-    @Disabled
     @DisplayName("Check error when article is open")
     void openArticleWithError() {
         step("Go to search input and type search", () -> {
